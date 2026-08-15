@@ -1,8 +1,4 @@
 ds-env/
 ds-venv/
 __pycache__/
-<<<<<<< HEAD
 .ipynb_checkpoints/
-=======
-.ipynb_checkpoints/
->>>>>>> c324cbc3f43c5e179664bb194862832642b02514
