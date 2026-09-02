@@ -1,0 +1,7 @@
+Aufgabe 1: Die Werte werden erst gruppiert nach der Zahlungsart. Anschliessend wird pro Zahlungsart eine neue Spalte hinzugefügt. Dann wird geschaut, welcher Wert die Zeile hat und die passende neue Spalte auf true gesetzt. Durch den binären Wert können weitere Verarbeitungen viel effizienter gelöst werden.
+Aufgabe 2: Anhand des Datums kann man den Wochentag, Monat etc. herausfinden. Somit kann man gezielte Abfragen auf die neue Spalte Monat machen, ohne jedesmal noch das Datum umzuwandeln.
+Aufgabe 3: Der Totale Preis wird durch die Anzahl dividiert. Somit lässt sich herausfinden, ob das gekaufte Produkt teuer ist oder nicht.
+Aufgabe 4: Die Preise werden in ein Verähltnis zueinander gesetzt. Somit werden vorallem die Ausreisser weniger extrem. 
+Aufgabe 5: Werte in einem bestimmten Bereich wird ein Label gegeben. Somit ist auf den ersten Blick anhand des Labels klarer, was der Wert aussagt. Wichtig dabei ist, das funktioniert nur mit kontinuirliche Werte
+Aufgabe 6: Es werden alle Bestellungen nach dem Namen gruppiert. Dann wird pro Gruppe jeweils der Preis summiert und durch die Anzahl Bestellungen dividiert. Somit hat man pro Kunde einen Durchschnittskaufpreis und kann Einschätzen, wie viel jemand bei seiner nächsten Bestellung ca. ausgibt.
+Aufgabe 7: Die grossen Werte werden komprimiert. Somit verzerren Rechtsschiefe Variablen wie eine extrem grosse Bestellung nicht die Modelle. Somit sind Muster besser sichtbar.
