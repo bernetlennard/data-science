@@ -1,0 +1,17 @@
+Reflexionsfragen
+
+Frage 1
+Es wird Menge mal Stückpreis gerechnet. Das Modell kann aber nur zusammenzählen. Es rechnet für jedes Merkmal einen festen Betrag (pro Stück, pro Franken, pro Prozent etc.) und zählt das zusammen.
+Das Modell sagt sogar einige Bestellungen einen Preis unter 0 CHF voraus.
+Die lineare Regression geht davon aus, dass jedes Merkmal für sich allein etwas dazu- oder wegzählt. Menge, Stückprei und Rabatt wirken aber zusammen mit multiplikationen.
+
+Frage 2
+Der R2 Wert liegt bei dem Training etwas höher wie beim test. Bei neuen Bestellungen ist das Modell also noch etwas schlechter.
+Würde man einen wirklich grossen Unterschied haben würde das Modell die Trainingsdaten auswendig lernen, statt das Muster zu verstehen.
+
+Frage 3
+Warenwert = Menge x Stückpreis.
+Damit muss das Modell nicht multiplikationen ausführen.
+
+Rabatt in Franken = Warenwert × Rabatt / 100
+Somit würde das Modell wirklich wissen wie viele Franken der Rabatt ausmacht.
