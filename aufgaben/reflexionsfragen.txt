@@ -1,0 +1,14 @@
+Reflexionsfragen
+
+Frage 1
+Die vier Gruppen lassen sich inhaltlich sauber unterscheiden mit je genau 40 Kunden.
+Jedes Cluster hat sein eigenes Verhalten und das gegebene Label miacht definitiv Sinn.
+
+Frage 2
+Ohne Skalierung kommt etwas komplett anderes heraus.
+Bei den Gesamtausgaben gibt es einen riesigen Unterschied. Dann die Anteil der Bestellungen am Wochenende ist zwischen 0 und 1.
+Somit würde nur noch der Umsatz zählen und die anderen Spalten haben garkeine Gewichtung.
+
+Frage 3
+K-Means startet mit unterschiedlichen Startpunkten und verbessert sich in einer Schleife bis sich nichts mehr ändert.
+Das Ergebnis hängt davon ab, wo der Algorithmus gestartet ist. random_state fixiert diesen Zufall, damit beim nächsten Ausführen dasselbe herauskommt.
